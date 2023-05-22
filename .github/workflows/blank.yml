@@ -16,4 +16,4 @@ jobs:
       run: python -V
 
     - name: Test with main
-      run:  main.py
+      run:  run main.py

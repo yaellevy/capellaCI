@@ -19,7 +19,7 @@ jobs:
       run: python -V
       
     - name: find directory
-      run: lib\site-packages
+      run: cd lib\site-packages
     
     - name: run with main
       run:  main.py

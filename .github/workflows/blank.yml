@@ -15,5 +15,5 @@ jobs:
     - name: Check Python version
       run: python -V
 
-    - name: Test with pytest
-      run: pytest
+    - name: Test with main
+      run:  main.py

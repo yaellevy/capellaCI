@@ -14,7 +14,8 @@ jobs:
       
     - name: Install dependencies
       run: pip install Capella
-      
-    - name: Check Python version
-      run: python -V
+    - name: Install pytest
+      run: pip install pytest
+    - name: check test
+      run: pytest
       
